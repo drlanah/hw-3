@@ -5,3 +5,5 @@ User is prompted to input desired password length, and must confirm the password
 
 If invalid character length is entered, user is alerted the required length.
 If password criteria is not validated, user is alerted of required criteria.
+
+Clipboard icon added to allow user to copy generated password to clipboard.

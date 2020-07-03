@@ -45,3 +45,11 @@ function generatePassword() {
   var password = passwordGenerated.join("");
   return password;
 }
+
+function copyText() {
+  var copyText = password;
+  copyText.select();
+  document.execCommand("copy");
+  alert("Password copied to clipboard.");
+}
+copyBtn.addEventListener("click", copyText);
